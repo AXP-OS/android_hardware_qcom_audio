@@ -19,14 +19,10 @@ AUDIO_FEATURE_ENABLED_VOICE_CONCURRENCY := true
 AUDIO_FEATURE_ENABLED_RECORD_PLAY_CONCURRENCY := true
 #TODO Enable PM
 #AUDIO_FEATURE_ENABLED_PM_SUPPORT := true
-AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := false
 MM_AUDIO_ENABLED_SAFX := true
-DOLBY_ENABLE := false
 
 endif
 USE_XML_AUDIO_POLICY_CONF := 1
-BOARD_SUPPORTS_SOUND_TRIGGER := true
-BOARD_SUPPORTS_SOUND_TRIGGER_ARM := true
 AUDIO_FEATURE_ENABLED_FFV := true
 AUDIO_FEATURE_ENABLED_KEEP_ALIVE_ARM_FFV := true
 AUDIO_FEATURE_ENABLED_KEEP_ALIVE := true
@@ -169,7 +165,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.audio@2.0-impl \
     android.hardware.audio.effect@2.0-impl \
-    android.hardware.soundtrigger@2.1-impl \
     android.hardware.audio@4.0 \
     android.hardware.audio.common@4.0 \
     android.hardware.audio.common@4.0-util \
